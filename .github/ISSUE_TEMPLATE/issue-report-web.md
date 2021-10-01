@@ -2,7 +2,7 @@
 name: Nahlášení problému ve webové aplikace
 about: Nahlášení problému mi pomůže udržovat aplikaci v dobrém a použitelném stavu.
 title: "[WEB] "
-labels: ''
+labels: ["webová stránka"]
 assignees: cajthamlmatej
 
 ---
