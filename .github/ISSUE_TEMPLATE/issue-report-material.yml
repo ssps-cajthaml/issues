@@ -1,0 +1,62 @@
+name: Nahlášení problému v materiálech
+description: Nahlášení problému mi pomůže udržovat materiály aktuální a správné pro budoucí generace.
+title: "[MATERIÁL] "
+labels: ["materiál"]
+assignees: 
+  - cajthamlmatej
+body:
+  - type: dropdown
+    id: subject
+    attributes:
+      label: Jméno předmětu pro který byl materiál vytvořen
+      multiple: true
+      options:
+        - 2-PVA - Programování a vývoj aplikací, 2. ročník
+        - 2-WBA - Webové aplikace, 2. ročník
+        - 3-MVOP WBF - MVOP Webový frontend, 3. ročník
+        - 4-MVOP WBF - MVOP Webový frontend, 4. ročník
+        - ostatní
+    validations:
+      required: true
+  - type: input
+    id: material
+    attributes:
+      label: Materiál
+      description: Jméno materiálu, kde byl zadán a popř. i pro jakou hodinu (číslo hodiny) je určen.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Popis problémů
+      description: Jednoznačené popsání všech nalezených problémů.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Lokace
+      description: Číslo stránky či sekce, kde se chyba nachází.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Oprava
+      description: Nápad či způsob jak by měla být problém vyřešen.
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshoty
+      description: Obrázek daného problému.
+    validations:
+      required: false
+  - type: input
+    id: name
+    attributes:
+      label: Vaše jméno
+      description: Z jména by mělo být jasné kdo jste. Může být použito pro udělení bodů za aktivitu.
+    validations:
+      required: false
