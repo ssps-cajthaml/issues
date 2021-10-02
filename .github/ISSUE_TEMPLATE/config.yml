@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Link na discord
+    url: https://discord.cajthaml.eu/
+    about: Zde se můžete před odeslání zeptat na další věci.
+  - name: Link na webový portál
+    url: https://ssps.cajthaml.eu
+    about: Informace o učení a jednotlivých předmětech.
