@@ -24,3 +24,6 @@ Jak by materiál měl vypadat po opravení problému.
 
 **Screenshoty**
 Screenshoty / obrázky dané chyby.
+
+**Vaše jméno**
+Z jména by mělo být jasné kdo jste.

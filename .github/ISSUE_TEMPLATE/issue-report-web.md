@@ -33,3 +33,6 @@ Screenshoty / obrázky dané chyby.
 Operační systém: **Windows/iOS/Android**
 Prohlížeč: **Google Chrome/Vivaldi/...**
 Je prohlížeč aktualizován na nejnovější verzi: **ano/ne**
+
+**Vaše jméno**
+Z jména by mělo být jasné kdo jste.
