@@ -11,11 +11,11 @@ body:
       label: Jméno předmětu pro který byl materiál vytvořen
       multiple: true
       options:
-        - 2-PVA - Programování a vývoj aplikací, 2. ročník
-        - 2-WBA - Webové aplikace, 2. ročník
-        - 3-MVOP WBF - MVOP Webový frontend, 3. ročník
-        - 4-MVOP WBF - MVOP Webový frontend, 4. ročník
-        - ostatní
+        - Programování a vývoj aplikací, 2. ročník
+        - Webové aplikace, 2. ročník
+        - MVOP Webový frontend, 3. ročník
+        - MVOP Webový frontend, 4. ročník
+        - Ostatní
     validations:
       required: true
   - type: input
