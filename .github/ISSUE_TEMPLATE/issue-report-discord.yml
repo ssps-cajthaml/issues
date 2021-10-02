@@ -1,0 +1,35 @@
+name: Nahlášení problému na Discord serveru
+description: Nahlášení problému nám pomůže udržovat komunitu v dobrém stavu.
+title: "[DISCORD] "
+labels: ["discord"]
+assignees: 
+  - cajthamlmatej
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Popis problémů
+      description: Jednoznačené popsání všech nalezených problémů.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Lokace
+      description: Lokace daného problému.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshoty
+      description: Obrázek daného problému.
+    validations:
+      required: false
+  - type: input
+    id: name
+    attributes:
+      label: Vaše jméno
+      description: Z jména by mělo být jasné kdo jste. Může být použito pro udělení bodů za aktivitu.
+    validations:
+      required: false
