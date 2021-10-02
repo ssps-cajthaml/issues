@@ -1,0 +1,67 @@
+name: Nahlášení problému ve webové aplikace
+description: Nahlášení problému mi pomůže udržovat aplikaci v dobrém a použitelném stavu.
+title: "[WEB] "
+labels: ["webová stránka"]
+assignees: 
+  - cajthamlmatej
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Popis problémů
+      description: Jednoznačené popsání všech nalezených problémů.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reprodukce programu
+      description: Jednoznačené popsání všech nalezených problémů.
+      value: |
+        Postup k reprodukci:
+        1. Přihlásit se.
+        2. Kliknout na "..."
+        3. ?
+        4. Profit.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Stránka
+      description: Jméno stránky a nejlépe i přesná URL adresa.
+    validations:
+      required: true
+  - type: textarea
+    id: device
+    attributes:
+      label: Zařízení
+      description: Informace o zařízení na kterém byl problém pozorován.
+      value: |
+        Operační systém: **Windows/iOS/Android**
+        Prohlížeč: **Google Chrome/Vivaldi/...**
+        Je prohlížeč aktualizován na nejnovější verzi: **ano/ne**
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Chyba
+      description: Informace z chyby (pokud byla zobrazena)
+      value: \```...```
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshoty
+      description: Obrázek daného problému.
+    validations:
+      required: false
+  - type: input
+    id: name
+    attributes:
+      label: Vaše jméno
+      description: Z jména by mělo být jasné kdo jste. Může být použito pro udělení bodů za aktivitu.
+    validations:
+      required: false
