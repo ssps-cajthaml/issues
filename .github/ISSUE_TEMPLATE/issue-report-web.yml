@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: reproduction
     attributes:
-      label: Reprodukce programu
+      label: Reprodukce problému
       description: Jednoznačené popsání všech nalezených problémů.
       value: |
         Postup k reprodukci:
