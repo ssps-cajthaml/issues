@@ -6,3 +6,6 @@ contact_links:
   - name: Link na webový portál
     url: https://ssps.cajthaml.eu
     about: Informace o učení a jednotlivých předmětech.
+  - name: Link na status služeb 
+    url: https://status.cajthaml.eu
+    about: Stránka obsahující status služeb, které souvisí s portálem.
