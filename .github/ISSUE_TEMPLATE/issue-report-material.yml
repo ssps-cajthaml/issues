@@ -17,6 +17,7 @@ body:
         - MVOP Webový frontend, 4. ročník
         - DVOP Webový backend, 3. ročník
         - DVOP Webový backend, 4. ročník
+        - Studentské a maturitní projekty, 3. a 4. ročník
         - Ostatní
     validations:
       required: true
