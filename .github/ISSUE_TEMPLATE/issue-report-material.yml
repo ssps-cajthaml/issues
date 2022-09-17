@@ -60,6 +60,6 @@ body:
     id: name
     attributes:
       label: Vaše jméno
-      description: Z jména by mělo být jasné kdo jste. Může být použito pro udělení bodů za aktivitu.
+      description: Ze jména by mělo být jasné kdo jste. Může být použito pro udělení bodů za aktivitu.
     validations:
       required: false
