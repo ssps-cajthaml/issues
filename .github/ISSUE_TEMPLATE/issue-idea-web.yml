@@ -1,5 +1,5 @@
 name: Nápad na zlepšení
-description: Různé nové nápady, které mohu do aplikace, materiálu či na discord přidat.
+description: Různé nové nápady, které mohu do aplikace, materiálů či na discord přidat.
 title: "[NÁPAD] "
 assignees: 
   - cajthamlmatej
@@ -28,13 +28,13 @@ body:
     id: reason
     attributes:
       label: Zdůvodnění
-      description: Zdůvodnéte, proč by tato funkčnost byla vhodná a dobrá. Můžete určit i kdo a jak ji bude využívat.
+      description: Zdůvodněte, proč by tato funkčnost byla vhodná a dobrá. Můžete určit i kdo a jak ji bude využívat.
     validations:
       required: true
   - type: input
     id: name
     attributes:
       label: Vaše jméno
-      description: Ze jména by mělo být jasné kdo jste. Může být použito pro udělení bodů za aktivitu.
+      description: Ze jména by mělo být jasné, kdo jste. Může být použito pro udělení bodů za aktivitu.
     validations:
       required: false

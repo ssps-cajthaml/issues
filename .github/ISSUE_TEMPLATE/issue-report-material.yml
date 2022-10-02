@@ -32,7 +32,7 @@ body:
     id: description
     attributes:
       label: Popis problémů
-      description: Jednoznačené popsání všech nalezených problémů.
+      description: Jednoznačné popsání všech nalezených problémů.
     validations:
       required: true
   - type: textarea
@@ -60,6 +60,6 @@ body:
     id: name
     attributes:
       label: Vaše jméno
-      description: Ze jména by mělo být jasné kdo jste. Může být použito pro udělení bodů za aktivitu.
+      description: Ze jména by mělo být jasné, kdo jste. Může být použito pro udělení bodů za aktivitu.
     validations:
       required: false
