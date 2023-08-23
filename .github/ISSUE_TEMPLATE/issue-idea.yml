@@ -1,5 +1,5 @@
 name: Nápad na zlepšení
-description: Různé nové nápady, které mohu do aplikace, materiálů či na discord přidat.
+description: Různé nové nápady, které mohu do aplikace, materiálů, Discord serveru či služeb přidat.
 title: "[NÁPAD] "
 assignees: 
   - cajthamlmatej
@@ -10,11 +10,11 @@ body:
       label: V jaké aplikaci se nachází nápad?
       options:
         - Portál (webová stránka)
-        - Hosting (circumrota)
-        - Testovací API (morsmordre)
+        - Služby (hosting, databáze, spouštěč kódu, ...)
         - Discord
-        - Materiály
-        - ostatní
+        - Prezentace
+        - Materiály (otázky, skripta, ...)
+        - Ostatní
     validations:
       required: true
   - type: textarea
