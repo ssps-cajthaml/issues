@@ -16,8 +16,12 @@ body:
         - MVOP Webový frontend, 3. ročník
         - MVOP Webový frontend, 4. ročník
         - DVOP Webový backend, 3. ročník
-        - DVOP Webový backend, 4. ročník
-        - Studentské a maturitní projekty, 3. a 4. ročník
+        - DVOP Pokročilá informatika, 4. ročník
+        - Studentské projekty, 3. ročník
+        - Maturitní práce, 4. ročník
+        - OSE Informatické semináře, 3. ročník
+        - OSE Informatické semináře, 4. ročník
+        - OSE Příprava na VŠ, 4. ročník
         - Ostatní
     validations:
       required: true
@@ -25,7 +29,7 @@ body:
     id: material
     attributes:
       label: Materiál
-      description: Jméno materiálu, kde byl zadán a popř. i pro jakou hodinu (číslo hodiny) je určen.
+      description: Jméno materiálu, kde byl zadán a popř. i pro jakou hodinu (číslo hodiny) je určen. Doporučuji se řídit dle názvu Lekcí v portálu.
     validations:
       required: true
   - type: textarea
