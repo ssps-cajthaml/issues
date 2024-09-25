@@ -50,7 +50,7 @@ body:
     id: fix
     attributes:
       label: Oprava
-      description: Nápad či způsob jak by měla být problém vyřešen.
+      description: Nápad či způsob jak by měl být problém vyřešen.
     validations:
       required: false
   - type: textarea
