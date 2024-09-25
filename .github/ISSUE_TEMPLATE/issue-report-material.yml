@@ -13,14 +13,10 @@ body:
       options:
         - Programování a vývoj aplikací, 2. ročník
         - Webové aplikace, 2. ročník
-        - MVOP Webový frontend, 3. ročník
+        - MVOP Webové inženýrství, 3. ročník
         - MVOP Webový frontend, 4. ročník
         - DVOP Webový backend, 3. ročník
         - DVOP Pokročilá informatika, 4. ročník
-        - Studentské projekty, 3. ročník
-        - Maturitní práce, 4. ročník
-        - OSE Informatické semináře, 3. ročník
-        - OSE Informatické semináře, 4. ročník
         - OSE Příprava na VŠ, 4. ročník
         - Ostatní
     validations:
