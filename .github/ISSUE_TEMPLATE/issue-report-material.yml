@@ -11,13 +11,14 @@ body:
       label: Jméno předmětu pro který byl materiál vytvořen
       multiple: true
       options:
-        - Programování a vývoj aplikací, 2. ročník
         - Webové aplikace, 2. ročník
         - MVOP Webové inženýrství, 3. ročník
-        - MVOP Webový frontend, 4. ročník
-        - DVOP Webový backend, 3. ročník
-        - DVOP Pokročilá informatika, 4. ročník
+        - OSE Webový backend, 3. ročník
+        - OSE Informatické semináře, 3. ročník
+        - MVOP Webový inženýrství, 4. ročník
+        - OSE Pokročilá informatika, 4. ročník
         - OSE Příprava na VŠ, 4. ročník
+        - Programování a vývoj aplikací, 4. ročník
         - Ostatní
     validations:
       required: true
@@ -63,3 +64,4 @@ body:
       description: Ze jména by mělo být jasné, kdo jste. Může být použito pro udělení bodů za aktivitu.
     validations:
       required: false
+
